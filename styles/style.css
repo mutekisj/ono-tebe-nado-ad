@@ -1,1 +1,71 @@
-/* место для вашего кода */
+.header{
+    background-color: antiquewhite;
+    display: flex;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 13;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.logo-image{
+    width: 148px;
+    height: 105px;
+    align-self: center;
+}
+.cover{
+    background-color: #eef;
+    background-image: url('/images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.title{
+    padding: 165px 50px;
+    color: white;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+}
+.center-span{
+    text-align: center;
+}
+.right-span{
+    text-align: right;
+}
+.description{
+    
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+.des-text{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 1.1em;
+}
+.button{
+    border-color: white;
+    background-color: rgb(1, 1, 1, 0%);
+    width: 256px;
+    height: 51px;
+    margin-right: 50px;
+}
+.button-text{
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
