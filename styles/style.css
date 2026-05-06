@@ -1,25 +1,28 @@
 .header{
     background-color: antiquewhite;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 .menu{
-    display: flex;
-    justify-content: space-between;
     gap: 13;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 18px;
+    height: 293px;
+    display: inline-table;
 }
 .logo-image{
     width: 148px;
     height: 105px;
-    align-self: center;
 }
 .cover{
     background-color: #eef;
     background-image: url('/images/cover.jpg');
     background-size: cover;
     background-position: center;
+    margin-bottom: 180px;
 }
 .overlay{
     background-color: rgb(0, 0, 0, 0.6);
@@ -40,14 +43,14 @@
     text-align: right;
 }
 .description{
-    
     display: flex;
-    color: #fff;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-left: 50px;
 }
 .des-text{
-    padding-left: 50px;
-    padding-bottom: 50px;
+    color: #fff;
     font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 22px;
@@ -57,6 +60,7 @@
 }
 .button{
     border-color: white;
+    border-width: 1px;
     background-color: rgb(1, 1, 1, 0%);
     width: 256px;
     height: 51px;
@@ -68,4 +72,43 @@
     font-size: 22px;
     text-transform: uppercase;
     color: #fff;
+}
+.lots{
+    height: 723px;
+    left: 24px;
+    background-color: antiquewhite;
+}
+.lot-title{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.lot-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.first-lot{
+    background-image: url(/images/card-lot-01.jpg);
+}
+.card-title{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.card-text{
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.second-lot{
+    background-image: url(/images/card-lot-02.jpg);
+}
+.third-lot{
+
 }
