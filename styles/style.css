@@ -1,7 +1,3 @@
-.header{
-
-    
-}
 .content{
     width: 1000px;
     margin: 0 auto;
@@ -107,7 +103,6 @@
 .lots{
     height: 723px;
     left: 24px;
-    background-color: antiquewhite;
     color: #eef;
 }
 .lot-title{
@@ -116,6 +111,8 @@
     font-size: 40px;
     text-transform: uppercase;
     margin-left: 40px;
+    color: black;
+    padding-bottom: 27px;
 }
 
 .lot-cards{
@@ -172,4 +169,64 @@
     flex-direction: column;
     min-height: 596px;
     margin: auto 0;
+}
+.text-after{
+    color: black;
+    padding-top: 30px;
+    padding-left: 64px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.about{
+    margin:120px 0 180px 0;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 40px;
+    gap: 80px;
+}
+.elipse{
+    margin-left: 47px;
+    background: black;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    top: -1px;
+    
+}
+.logo_image-black{
+    width: 148px;
+    height: 114px;
+}
+.about-column{
+    margin-top: 100px;
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.about-title{
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-bottom: 76px;
+}
+.about-text{
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 24px;
 }
