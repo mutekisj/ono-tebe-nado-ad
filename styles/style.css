@@ -1,4 +1,4 @@
-.content{
+.content {
     width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -6,7 +6,7 @@
     flex-direction: row;
     
 }
-.menu{
+.menu {
     text-align: center;
     height: 100%;
     display: flex;
@@ -14,7 +14,7 @@
     margin: 0;
     margin-right: 37px;
 }
-.menu-list{
+.menu-list {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -23,33 +23,33 @@
     align-items: center;
     gap: 26px;
 }
-.active-list{
+.active-list {
     list-style: none;
 }
-.innactive-list{
+.innactive-list {
     list-style: circle;
     text-decoration: underline;
 }
-.logo{
+.logo {
     margin: 0;
     margin-right: 184px;
 }
-.logo-image{
+.logo-image {
     width: 148px;
     height: 105px;
 }
-.cover{
+.cover {
     background-color: #eef;
     background-image: url('/images/cover.jpg');
     background-size: cover;
     background-position: center;
     margin-bottom: 180px;
 }
-.overlay{
+.overlay {
     background-color: rgb(0, 0, 0, 0.6);
     margin: auto;
 }
-.title{
+.title {
     padding: 165px 50px;
     color: white;
     letter-spacing: 0.3em;
@@ -58,20 +58,20 @@
     font-weight: 700;
     font-size: 100px;
 }
-.center-span{
+.center-span {
     text-align: center;
 }
-.right-span{
+.right-span {
     text-align: right;
 }
-.description{
+.description {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
     margin-left: 50px;
 }
-.des-text{
+.des-text {
     color: #fff;
     font-family: Raleway, sans-serif;
     font-weight: 400;
@@ -80,7 +80,7 @@
     text-transform: uppercase;
     word-spacing: 1.1em;
 }
-.button{
+.button {
     border-color: white;
     border-width: 1px;
     background-color: rgb(1, 1, 1, 0%);
@@ -88,19 +88,19 @@
     height: 51px;
     margin-right: 50px;
 }
-.button-text{
+.button-text {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
     color: #fff;
 }
-.lots{
+.lots {
     height: 723px;
     left: 24px;
     color: #eef;
 }
-.lot-title{
+.lot-title {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -110,7 +110,7 @@
     padding-bottom: 27px;
 }
 
-.lot-cards{
+.lot-cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +118,7 @@
     margin-right: 24px;
     margin-left: 24px;
 }
-.first-lot{
+.first-lot {
     background-image: url(/images/card-lot-01.jpg);
     background-position: center;
     background-size: cover;
@@ -127,20 +127,20 @@
     display: flex;
     flex-direction: column;
 }
-.card-title{
+.card-title {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
 }
-.card-text{
+.card-text {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-top: auto;
 }
-.second-lot{
+.second-lot {
     background-image: url(/images/card-lot-02.jpg);
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@
     display: flex;
     flex-direction: column;
 }
-.third-lot{
+.third-lot {
     background-image: url(/images/card-lot-03.jpg);
     background-position: center;
     background-size: cover;
@@ -158,14 +158,14 @@
     display: flex;
     flex-direction: column;
 }
-.lot-content{
+.lot-content {
     padding: 48px 40px;
     display: flex;
     flex-direction: column;
     min-height: 596px;
     margin: auto 0;
 }
-.text-after{
+.text-after {
     color: black;
     padding-top: 30px;
     padding-left: 64px;
@@ -174,14 +174,14 @@
     font-size: 20px;
     text-decoration: underline;
 }
-.about{
+.about {
     margin:120px 0 180px 0;
     display: flex;
     align-items: flex-start;
     padding: 0 40px;
     gap: 80px;
 }
-.elipse{
+.elipse {
     margin-left: 47px;
     background: black;
     border-radius: 50%;
@@ -195,18 +195,18 @@
     top: -1px;
     
 }
-.logo_image-black{
+.logo_image-black {
     width: 148px;
     height: 114px;
 }
-.about-column{
+.about-column {
     margin-top: 100px;
     margin-bottom: 13px;
     display: flex;
     flex-direction: column;
     justify-content: left;
 }
-.about-title{
+.about-title {
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
@@ -216,7 +216,7 @@
     text-transform: uppercase;
     margin-bottom: 76px;
 }
-.about-text{
+.about-text {
     font-family: Raleway;
     font-weight: 400;
     font-style: Regular;
@@ -225,32 +225,34 @@
     letter-spacing: 0%;
     margin-top: 24px;
 }
-.footer{
+.footer {
     padding: 0 50px 82px;
     margin-top: 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.contacts{
+.contacts {
     font-family: Raleway;
     font-weight: 400;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
-.adresses{
+.adresses {
     text-decoration: underline;
 }
-.menu-list_footer{
+.menu-list_footer {
     text-align: center;
 }
-.innactive-list_footer{
+.innactive-list_footer {
     list-style: none;
     text-decoration: underline;
 }
-.socials{
+.socials {
     gap: 48px;
 }
-.logo-socials{
+.logo-socials {
     width: 48px;
     height: 48px;
 }
