@@ -2,11 +2,9 @@
     width: 1000px;
     margin: 0 auto;
     display: flex;
-    display: flex;
     align-items: center;
     flex-direction: row;
-    text-align: center;
-
+    
 }
 .menu{
     text-align: center;
@@ -226,4 +224,33 @@
     line-height: 24px;
     letter-spacing: 0%;
     margin-top: 24px;
+}
+.footer{
+    padding: 0 50px 82px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+}
+.adresses{
+    text-decoration: underline;
+}
+.menu-list_footer{
+    text-align: center;
+}
+.innactive-list_footer{
+    list-style: none;
+    text-decoration: underline;
+}
+.socials{
+    gap: 48px;
+}
+.logo-socials{
+    width: 48px;
+    height: 48px;
 }
