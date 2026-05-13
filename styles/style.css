@@ -328,14 +328,11 @@
 .footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 4px;
+  font-size: 18px;
 }
 
 .footer__menu-link_active {
   text-decoration: none;
-}
-
-.footer__menu-link {
-  font-size: 18px;
 }
 
 .footer__social-list {
