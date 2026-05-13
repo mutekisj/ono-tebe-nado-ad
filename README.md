@@ -1,1 +1,1 @@
-Спринт 1. Проектная работа.
+https://github.com/mutekisj/ono-tebe-nado-ad
